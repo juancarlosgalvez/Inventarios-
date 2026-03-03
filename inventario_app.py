@@ -57,6 +57,7 @@ TIPOS_MOVIMIENTO = {
 }
 
 # ------------------ DATABASE LAYER ------------------
+Print('[DB] Configuración de la base de datos cargada')
 class DBConn:
     def __init__(self, cfg): # inicializa la conexión a la base de datos
         self.cfg = dict(cfg)
